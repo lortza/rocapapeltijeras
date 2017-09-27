@@ -1,8 +1,8 @@
 require "spec_helper"
 
-RSpec.describe Rocapapeltijeras do
+RSpec.describe RocaPapelTijeras do
   it "has a version number" do
-    expect(Rocapapeltijeras::VERSION).not_to be nil
+    expect(RocaPapelTijeras::VERSION).not_to be nil
   end
 
   it "does something useful" do

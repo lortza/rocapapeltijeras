@@ -5,7 +5,7 @@ require 'rocapapeltijeras/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rocapapeltijeras"
-  spec.version       = Rocapapeltijeras::VERSION
+  spec.version       = RocaPapelTijeras::VERSION
   spec.authors       = ["anne"]
   spec.email         = ["richardson.ae@gmail.com"]
 
