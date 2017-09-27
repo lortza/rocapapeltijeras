@@ -1,8 +1,6 @@
-# Rocapapeltijeras
+# Roca Papel Tijeras
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rocapapeltijeras`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Roca Papel Tijeras is a classic Rock Paper Scissors command line game with the option of 1 or 2 players. Just to mix it up a bit, the gameplay is all written in Spanish.
 
 ## Installation
 
@@ -22,7 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You can pull this down to your command line, open pry, then play by requiring the gem.
+
+Open Pry:
+
+    $ pry
+
+Run it by requiring the gem:
+
+    $ require 'rocapapeltijeras'
+
+The game starts and then you just follow the game prompts from there.
 
 ## Development
 
@@ -34,6 +42,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rocapapeltijeras. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
+This gem currently does not have tests and also needs some help with Spanish translation.
 
 ## License
 
