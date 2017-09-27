@@ -26,7 +26,7 @@ Open Pry:
 
     $ pry
 
-Or install it yourself as:
+Run it by requiring the gem:
 
     $ require 'rocapapeltijeras'
 
