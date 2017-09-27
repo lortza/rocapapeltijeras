@@ -5,7 +5,7 @@ require 'rocapapeltijeras/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rocapapeltijeras"
-  spec.version       = RocaPapelTijeras::VERSION
+  spec.version       = Rocapapeltijeras::VERSION
   spec.authors       = ["anne"]
   spec.email         = ["richardson.ae@gmail.com"]
 
@@ -19,8 +19,7 @@ Gem::Specification.new do |spec|
   if spec.respond_to?(:metadata)
     spec.metadata['allowed_push_host'] = "https://rubygems.org"
   else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
+    raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   end
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
