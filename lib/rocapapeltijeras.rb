@@ -1,5 +1,5 @@
 require "rocapapeltijeras/version"
-require "rocapapeltijeras/asci_art"
+require "rocapapeltijeras/ascii_art"
 require 'rocapapeltijeras/cli'
 require 'rocapapeltijeras/game'
 
